@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	margin: 0 auto;
+	font-family: "";
+	background: center top no-repeat;
+}
+
+li {
+	list-style: none;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a {
+	outline: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+body,td,select,div {
+	font-size: 12px;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,select,blockquote,th,td
+	{
+	padding: 0px;
+	margin: 0px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.clear {
+	clear: both !important;
+	float: none !important;
+	font-size: 0px !important;
+	line-height: 0px !important;
+	overflow: hidden;
+	height: 0px !important;
+}
+
+.hide {
+	display: none;
+}
+
+.nohide {
+	display: block;
+}
+
+*+html .clearfix,* html .clearfix {
+	height: 1%;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	outline: none !important;
+	*hide-focus: expression(this.hideFocus =   true);
+}
+
+.width {
+	width: 993px;
+	margin: auto;
+}
+
+.header {
+	padding-top: 20px;
+}
+
+.header img {
+	margin-right: 24px;
+	vertical-align: 0px;
+}
+
+.header span {
+	color: #888888;
+	font-size: 12px;
+}
+
+.header span a {
+	vertical-align: 1px;
+}
+
+.header span a:link {
+	color: #888888;
+}
+
+.header span a:active {
+	color: #888888;
+}
+
+.header span a:visited {
+	color: #888888;
+}
+
+#fm {
+	margin: 0;
+	padding: 10px 30px;
+}
+
+.ftitle {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.fitem {
+	margin-bottom: 5px;
+}
+
+.fitem label {
+	display: inline-block;
+	width: 80px;
+}

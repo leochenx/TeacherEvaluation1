@@ -1,0 +1,254 @@
+.bordertop0px{
+	position: relative;
+	top:-1px;
+	border-top:0px;
+}
+button {
+	 background: #fff;
+	padding-top: 3px;
+	border-top: 1px solid #708090;
+	border-right: 1px solid #708090;
+	border-bottom: 1px solid #708090;
+	border-left: 1px solid #708090;
+	width: 70px;
+	height: 30px;
+	font-size: 10pt;
+	cursor: hand;
+}
+.backgroupColor{
+	background : url(../image/AllImages_2.png) no-repeat -268px -93px;
+}
+.context_a a{                
+    cursor:pointer;
+}
+.jbxx{
+	width: 100%
+}
+.jbxx td {
+	white-space:nowrap;
+    padding: 2px;
+    
+}
+.jbxx td span {
+    float: right;
+}
+.jbxx td input {
+    width: 1px;
+}
+.margbotmon10{
+	margin-bottom:10px;
+}
+.margbotmon15{
+	margin-bottom:15px;
+}
+.margbotmon20{
+	margin-bottom:20px;
+}
+.marginleft20{
+	margin-left:20px;
+}
+.marginright20{
+    margin-right:20px;
+}
+.marginleft40{
+	margin-left:40px;
+}
+.marginright40{
+    margin-right:40px;
+}
+.mRTable02{
+	background:#fff;
+	border:1px solid #c0d4e5;
+	padding:10px 15px;
+	overflow:hidden;
+}
+
+.mRTable03{
+	background:#fff;
+	border:1px solid #c0d4e5;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	overflow:hidden;
+	display: block;
+}
+.mRTable04{
+	background:#fff;
+	border:1px solid #c0d4e5;
+	border-top:0px;
+	overflow:hidden;
+	display: block;
+}
+.lengthColor{
+    color:red;
+}
+.left20px{
+	position: relative;
+	left: 20px;
+	width: 96%;
+}
+
+.padding_right-20px{
+	 padding-bottom: 0px;
+	 padding-left: 0px;
+	 padding-right: 20px;
+	 padding-top: 0px;
+}
+.padding_bottom_top_3px{
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.submit{
+	width:57px;
+	height:24px;
+	background:url(${ctx}/resources/image/AllImages_2.png) -208px -93px no-repeat;
+	margin:0 5px;
+	color:#333;
+}
+.submitLongLong{
+	width:93px;
+	height:24px;
+	background:url(${ctx}/resources/image/AllImages_2.png) -350px -93px no-repeat;
+	margin:0 5px;
+	color:#333;
+}
+.splitterMask
+{
+   position:absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   background-image: url(resources/images/transparent.gif);
+   z-index: 20000;
+}
+.t_con td{
+	height:20px;
+	line-height:20px;
+	text-align: center;
+    text-overflow:ellipsis;
+	word-break:keep-all;
+	overflow-x:hidden;
+	overflow:hidden;
+	max-height:'none';
+	padding:3px;
+}
+.t_con td div{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-break:keep-all;
+	overflow:hidden;
+	vertical-align: text-bottom;
+}
+.t_conselectrow td{
+	height:20px;
+	line-height:20px;
+	text-align: center;
+    text-overflow:ellipsis;
+	word-break:keep-all;
+	overflow-x:hidden;
+	overflow:hidden;
+	max-height:'none';
+	padding:3px;
+	background-color: #DCDCFF;
+}
+.t_conselectrow td div{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-break:keep-all;
+	overflow:hidden;
+	vertical-align: text-bottom;
+	background-color: #DCDCFF;
+}
+.t_conover td{
+	height:20px;
+	line-height:20px;
+	text-align: center;
+    text-overflow:ellipsis;
+	word-break:keep-all;
+	overflow-x:hidden;
+	overflow:hidden;
+	max-height:'none';
+	padding:3px;
+	background-color: #E8E4FF;
+}
+.t_conover td div{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-break:keep-all;
+	overflow:hidden;
+	vertical-align: text-bottom;
+	background-color: #E8E4FF;
+}
+.tablehide{
+	display: none;
+}
+.table01 td{
+	height: 30px;
+	font-size: 14px;
+}
+.table_con{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    table-layout: fixed;
+    overflow-y:hidden;
+    width:100%;
+    overflow:auto;
+    overflow:scroll; 
+}
+.table_con td{
+	height:20px;
+	line-height:20px;
+	text-align: center;
+    text-overflow:ellipsis;
+	word-break:keep-all;
+	overflow-x:hidden;
+	overflow:hidden;
+	max-height:'none';
+	padding:3px;
+}
+.table_con td div{
+	width:100%;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-break:keep-all;
+	overflow:hidden;
+	vertical-align: text-bottom;
+}
+
+
+.tableTitle {
+    cursor:pointer;
+}
+
+.top-1px{
+	position: relative;
+	top:-1px;
+}
+.top-2px{
+	position: relative;
+	top:-2px;
+}
+
+.u33_container {
+    position:absolute;
+    left:76px;
+    top:559px;
+    width:22px;
+    height:23px;
+}
+.vsplitbar {
+	width: 3px;
+	background: #DDD;
+}
