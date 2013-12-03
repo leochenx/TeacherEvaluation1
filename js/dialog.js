@@ -3,7 +3,7 @@ jsonObj={
 		"jxxm":"教学项目",
 		"kylw":"科研论文",
 		"jxlw":"教学论文"
-}
+};
 var url;
 function newItem(tabName) {
 	var dlgName='#dlg_'+tabName;

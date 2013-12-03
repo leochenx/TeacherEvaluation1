@@ -18,11 +18,15 @@
 // 	$result["rows"] = $items;
 
 // 	echo json_encode($result);
-$teacher_id=isset($_POST['id'])?intval($_POST['id']):1;
-// $teacher_id=04303;
 include 'conn.php';
+session_start();
+$id=$_SESSION['user'];
+
 mysql_query("set names 'utf8'");
-$rs=mysql_query("select * from te_teacher_info");
-$row=mysql_fetch_object($rs);
-echo json_encode($row,JSON_UNESCAPED_UNICODE);
+$query_string="select * from te_teacher_info where id=".$id;
+// $query_string="select * from te_teacher_info where id=11";
+// echo $query_string;
+$rs=mysql_query($query_string);
+ $row=mysql_fetch_object($rs);
+ echo json_encode($row,JSON_UNESCAPED_UNICODE);
 ?>

@@ -1,3 +1,9 @@
+<?php 
+session_start () ;
+if (!isset ($_SESSION['user'])){
+header ("Location:login.php") ;
+ } 
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -15,10 +21,10 @@
 <link rel="stylesheet" type="text/css" href="./css/easyui.css"></link>
 <link rel="stylesheet" type="text/css" href="./css/icon.css"></link>
 <link rel="stylesheet" type="text/css" href="./css/demo.css"></link>
-<script type="text/javascript" src="./js/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="./common/dialog.js"></script>
-<script type="text/javascript" src="./common/teacher_info.js"></script>
+<script type="text/javascript" src="./js/dialog.js"></script>
+<script type="text/javascript" src="./js/teacher_info.js"></script>
 </head>
 <body>
 	<div class="top_bg"
@@ -64,20 +70,20 @@
 								<td><span>性别</span></td>
 								<td><div class="comboContainer"
 										style="width: 130px; display: block; border: none;">
-										<input id="jbxx_xb" name="jbxx.xb" type="text" value="女"
+										<input id="jbxx_xb" name="jbxx.xb" type="text" 
 											readonly="readonly" class="solided" style="width: 127px;"> </input>
 									</div></td>
 								<td><span>民族</span></td>
 								<td><div class="comboContainer"
 										style="width: 130px; display: block; border: none;">
-										<input id="jbxx_mz" name="jbxx.mz" type="text" value="苗族"
+										<input id="jbxx_mz" name="jbxx.mz" type="text" 
 											readonly="readonly" class="solided" style="width: 127px;"> </input>
 									</div></td>
 								<td><span>政治面貌</span></td>
 								<td><div class="comboContainer"
 										style="width: 130px; display: block; border: none;">
 										<input id="jbxx_zzmm" name="jbxx.zzmm" type="text"
-											value="中共党员" readonly="readonly" class="solided"
+											 readonly="readonly" class="solided"
 											style="width: 127px;"> </input>
 									</div></td>
 
@@ -154,7 +160,7 @@
 								<td><div class="comboContainer"
 										style="width: 130px; display: block; border: none;">
 										<input id="jbxx_email" name="jbxx.email" type="text"
-											value="xqwan@fudan.edu.cn" class="solided"
+											 class="solided"
 											readonly="readonly" class="solided" style="width: 127px;"> </input>
 									</div></td>
 								<td><a href="./detail.php" style="color: blue;">详细</a></td>
