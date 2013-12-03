@@ -1,0 +1,70 @@
+* {margin:0; padding:0;}
+body {font-size:12px;  margin:0 auto; font-family:""; background: center  top no-repeat;}
+li {list-style:none;}
+a:link, a:visited {text-decoration:none; cursor:pointer;}
+a {outline: none;}
+
+:focus {outline:0;}
+body,td,select,div{font-size:12px; }
+.strong{font-weight: bold;}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,select,blockquote,th,td{padding:0px; margin:0px;}
+a:hover{text-decoration:underline;}
+a img{border:none;}
+img{vertical-align:middle;}
+.clear{clear:both!important; float:none!important; font-size:0px!important; line-height:0px!important;overflow:hidden;height:0px!important; }
+.hide {display:none;}
+.nohide {display:block;}
+*+html .clearfix, *html .clearfix { height:1%; }
+a{text-decoration:none; cursor:pointer;outline:none!important;*hide-focus:expression(this.hideFocus=true);}
+
+.width{width:993px; margin:auto;}
+.header{  padding-top:20px;}
+.header img{ margin-right:24px; vertical-align:0px;}
+.header span{ color:#888888; font-size:12px;}
+.header span a{  vertical-align:1px; }
+.header span a:link{color:#888888;}
+.header span a:active {color:#888888;}
+.header span a:visited {color:#888888;}
+
+
+.footer{ text-align:left; color:#999999; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.footer .right{ text-align:left;  float:right; display:block; width:400px;}
+.footer .left{ padding-top:7px; float:left; display:block; width:400px;}
+
+.content{height:344px;}
+.content_left{height:344px; width:592px; float:left; /* background:url(../resource/content_left.gif) no-repeat;*/}
+.content_right{height:227px; width:340px;float:right; background:url(../image/content_right.jpg) no-repeat;padding-top:84px; position:relative; }
+.content_right .off{background:url(../image/input.gif) no-repeat; }
+.content_right .on{ background:url(../image/input_on.gif) no-repeat; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.content_right .ps{  height:44px; line-height:12px!important; width:155px; border:none; background:none;  font-size:14px; color:#3961a9; }
+} 
+.content_right .ps{  height:44px; line-height:44px; width:155px; border:none; background:none;  font-size:14px; color:#3961a9; }
+.content_right .account{ margin-left:32px; height:44px; line-height:44px; background-position:44px 0; padding-bottom:5px;}
+.account span{ font-size:14px; color:#666666; padding-right:20px; float:left; _vertical-align:12px }
+.account a{ display:block; float:right; padding-right:35px; color:#3961A9;}
+.header a:link{color:#3961A9;}
+.header a:active {color:#3961A9;}
+.header a:visited {color:#3961A9;}
+.account input{float:left;}
+
+
+.content_right .remember{ height:30px;  margin-left:82px; _margin-left:78px; color:#666666; text-align:left;}
+.content_right .remember span{ vertical-align:2px;  _vertical-align:0px;}
+.bottom{ margin-left:82px; width:118px; height:42px; display:block; background:url(../image/bottom.gif) no-repeat; border:none; cursor:pointer;}
+/*loading¼ͼƬ*/
+.bottom_hidden{ display:none;}
+.loading_image{ width:20px; height:20px; display:none; background:url(../image/login_loading.gif) no-repeat; border:none; position:absolute; left:15px; top:11px;}
+.loading_image_bg{ margin-left:82px; width:118px; height:42px; display:none; background:url(../image/bottom_bg.gif) no-repeat; border:none; position:relative;}
+.display{ display:block}
+.reg{ margin-left:82px; padding-top:28px;color:#666666; }
+.reg a{text-decoration:underline; font-weight:bold; font-size:14px; color:#3961a9; padding-left:10px;}
+.reg a:hover{text-decoration:none; color:#e60011;}
+.content_right .qqlogin{margin-left:32px; color:#888888; padding-top:13px; /*background:url(../images_login/qq.gif) no-repeat 108px 10px;*/}
+.content_right .qqlogin a{ padding:0px 5px 0px 22px;; color:#888888;}
+.yz { width:100px; border:1px solid #a4a4a4; height:20px;}
+.remember2{ height:30px;  margin-left:82px; _margin-left:41px; *margin-left:41px; color:#666666; text-align:left; line-height:12px;}
+.remember2 img{ vertical-align:-7px!important;   _vertical-align:-2px!important; *vertical-align:-3px!important; border:1px #666666 solid; width:60px; height:20px; margin-left:5px; }
+.remember3 { position:absolute; top:210px; left:82px;border:#e3cf3b 1px solid; z-index:100; width:168px; height:20px; background:#fffbd8; color:#e60011; line-height:20px; text-align:center; }
+.remember2 .yz{ line-height:20px;}
+.login_banner{ height:311px; margin-top:0px; _margin-top:16px;}
