@@ -1,8 +1,14 @@
+jsonObj={
+		"kyxm":"科研項目",
+		"jxxm":"教学项目",
+		"kylw":"科研论文",
+		"jxlw":"教学论文"
+}
 var url;
 function newItem(tabName) {
 	var dlgName='#dlg_'+tabName;
 	var fmName="#fm_"+tabName;
-	$(dlgName).dialog('open').dialog('setTitle', '新增科研项目');
+	$(dlgName).dialog('open').dialog('setTitle', '新增'+jsonObj[tabName]);
 	$(fmName).form('clear');
 	url = 'save_user.php?tab='+tab;
 }
@@ -40,7 +46,7 @@ function saveItem(tabName) {
 		}
 	});
 }
-function destroyUser(tabName) {
+function destroyItem(tabName) {
 	var dlgName='#dlg_'+tabName;
 	var fmName="#fm_"+tabName;
 	var dgName="#dg_"+tabName;
